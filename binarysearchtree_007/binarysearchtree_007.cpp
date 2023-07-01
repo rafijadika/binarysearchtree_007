@@ -28,15 +28,4 @@ public:
 		ROOT = NULL;
 	}
 
-	void insert(string element)
-	{
-		Node* parent = NULL;
-		newNode->info = element;
-		newNode->leftchild = NULL;
-		newNode->rightchild = NULL;
-
-		Node* parent = NULL;
-		Node* currentNode = NULL;
-		search(element, parent, currentNode);
-
-		
+	
